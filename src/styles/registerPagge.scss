@@ -1,0 +1,165 @@
+.containerR {
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    padding: 20px 0;
+    align-items: center;
+    border-radius: 8px;
+    background: #121214;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fundoR {
+    display: flex;
+    padding: 60px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    border-radius: 4px;
+    background: var(--grey-3, #212529);
+    box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+    max-height: 100%;
+}
+
+
+.logoVoltar {
+    display: flex;
+    align-items: center;
+    gap: 390px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.imgl {
+    display: inline-flex;
+    width: 97px;
+    height: 16px;
+}
+  
+.voltar {
+    display: inline-flex;
+    background-color: #212529;
+    border-radius: 4px;
+    border: 1px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10.15px;
+    align-items: center;
+    justify-content: center;
+    color: #f8f9fa;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+        background-color: #343b41;
+    }
+}
+    
+  
+.tituloR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey-0, #f8f9fa);
+    font: 700 14.44px/22.46px "Inter", sans-serif;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+  
+.paragrafoR {
+    margin-bottom: 10px;
+}
+  
+.formularioR {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+  
+label {
+    color: #F8F9FA;
+    text-align: left;
+    font: 400 9.77px/0px "Inter", sans-serif;
+    position: relative;
+    margin-bottom: 12px;
+}
+  
+.input {
+    margin-top: 10px;
+    display: flex;
+    width: 355.929px;
+    height: 48px;
+    padding: 0px 16.243px;
+    align-items: center;
+    gap: 10.152px;
+    flex-shrink: 0;
+    color: var(--grey-50, #868E96);
+    color: var(--grey-0, #F8F9FA);
+    font-family: Inter;
+    font-size: 12.182px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    border-radius: 4px;
+    border: 1.218px solid var(--grey-2, #343B41);
+    background: var(--grey-2, #343B41);
+
+  
+    &.mensagemErro {
+        color: var(--color-primary-negative, #ff6b81);
+        margin-top: 5px;
+    }
+}
+
+
+  
+.cadastrarConfirma {
+    border-radius: 4.061px;
+    border: 1.218px solid var(--color-primary, #FF577F);
+    background: var(--color-primary, #FF577F);
+    padding: 0px 22.33px;
+    color: #fff;
+    font: 500 12.83px/21.17px "Inter", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 38.5px;
+    margin-top: 20px;
+
+    &:hover {
+        border-radius: 4px;
+        border: 1.218px solid var(--color-primary-50, #FF427F);
+        background: var(--color-primary-50, #FF427F);
+    }  
+}
+
+.inputb {
+    margin-top: 10px;
+    color: var(--grey-0, #F8F9FA);
+    font-family: Inter, sans-serif;
+    font-size: 12.182px;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid var(--grey-2, #343B41);
+    border-radius: 4px;
+    background: var(--grey-2, #343B41);
+    padding: 8px 12px; 
+    width: 100%; 
+  }
+  
+
+p {
+    color: var(--grey-1, #868e96);
+    text-align: left;
+    font: 600 9.63px/14.44px "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+
+  

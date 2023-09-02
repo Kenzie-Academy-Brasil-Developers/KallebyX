@@ -1,0 +1,116 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95.7vh; 
+    padding: 20px;
+    background-color: #121214;
+    color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.img-sair {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 97px;
+    height: 16px;
+}
+
+.sair {
+    background-color: #212529;
+    border-radius: 4px;
+    border: 1px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10.15px;
+    align-items: center;
+    justify-content: center;
+    color: #f8f9fa;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #343b41;
+    }
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #868e96;
+}
+
+.boxNomeEmod {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.nome-modulo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.modulo {
+    font-size: 14px;
+    color: #868e96;
+}
+
+.paragrafos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.p1 {
+    color: var(--grey-0, #F8F9FA);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px; 
+}
+
+.p2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.364px;
+    margin-bottom: 20px;
+}
+
